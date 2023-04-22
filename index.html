@@ -796,16 +796,23 @@
                             We offer long-term and short-term boarding. Every dog has its own
                             private, spacious room and daily individual time in our large play yard.
                         </p>
-                        <div class="pricing__btn-box">
-                            <div class="pricing__btn-wrap">
-                                <a href="#!" class="btn pricing__btn">Monthly</a>
-                                <a href="#!" class="btn pricing__btn pricing__btn--active"
-                                    >Yearly</a
-                                >
+                        <div class="pricing__check-box">
+                            <div class="pricing__check-inner">
+                                <input
+                                    style="display: none"
+                                    class="pricing__check-input"
+                                    type="checkbox"
+                                    id="pricing-check-input"
+                                    checked
+                                />
+                                <label for="pricing-check-input" class="pricing__check-label">
+                                    <span class="pricing__check-value">Monthly</span>
+                                    <span class="pricing__check-value">Yearly</span>
+                                </label>
                                 <img
                                     src="./assets/icon/disacount.svg"
-                                    alt="SAVE 15%"
-                                    class="pricing-discount"
+                                    alt="Discount 15%"
+                                    class="pricing__discount"
                                 />
                             </div>
                         </div>
@@ -818,146 +825,13 @@
                             <p class="pricing__item-price">$150</p>
                             <a href="#!" class="btn pricing__item-btn">Purchase Now</a>
                             <ul class="pricing__item-list">
-                                <li class="pricing__item-item">
-                                    <svg
-                                        class="pricing__item-icon"
-                                        width="15"
-                                        height="10"
-                                        viewBox="0 0 15 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-
-                                    Single room
-                                </li>
-                                <li class="pricing__item-item">
-                                    <svg
-                                        class="pricing__item-icon"
-                                        width="15"
-                                        height="10"
-                                        viewBox="0 0 15 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-
-                                    Socialist Exercise
-                                </li>
-                                <li class="pricing__item-item">
-                                    <svg
-                                        class="pricing__item-icon"
-                                        width="15"
-                                        height="10"
-                                        viewBox="0 0 15 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-
-                                    Custom Meals
-                                </li>
-                                <li class="pricing__item-item">
-                                    <svg
-                                        class="pricing__item-icon"
-                                        width="15"
-                                        height="10"
-                                        viewBox="0 0 15 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-
-                                    Spa and Grooming
-                                </li>
-                                <li class="pricing__item-item">
-                                    <svg
-                                        class="pricing__item-icon"
-                                        width="15"
-                                        height="10"
-                                        viewBox="0 0 15 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-
-                                    Excercise 2x
-                                </li>
-                                <li class="pricing__item-item">
-                                    <svg
-                                        class="pricing__item-icon"
-                                        width="15"
-                                        height="10"
-                                        viewBox="0 0 15 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-
-                                    Custom Meals
-                                </li>
-                                <li class="pricing__item-item">
-                                    <svg
-                                        class="pricing__item-icon"
-                                        width="15"
-                                        height="10"
-                                        viewBox="0 0 15 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-
-                                    Grooming 2x
-                                </li>
+                                <li class="pricing__item-item">Single room</li>
+                                <li class="pricing__item-item">Socialist Exercise</li>
+                                <li class="pricing__item-item">Custom Meals</li>
+                                <li class="pricing__item-item">Spa and Grooming</li>
+                                <li class="pricing__item-item">Excercise 2x</li>
+                                <li class="pricing__item-item">Custom Meals</li>
+                                <li class="pricing__item-item">Grooming 2x</li>
                             </ul>
                         </section>
                         <section class="pricing__item">
@@ -966,146 +840,13 @@
                             <p class="pricing__item-price">$199</p>
                             <a href="#!" class="btn pricing__item-btn">Purchase Now</a>
                             <ul class="pricing__item-list">
-                                <li class="pricing__item-item">
-                                    <svg
-                                        class="pricing__item-icon"
-                                        width="15"
-                                        height="10"
-                                        viewBox="0 0 15 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-
-                                    Single room
-                                </li>
-                                <li class="pricing__item-item">
-                                    <svg
-                                        class="pricing__item-icon"
-                                        width="15"
-                                        height="10"
-                                        viewBox="0 0 15 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-
-                                    Socialist Exercise
-                                </li>
-                                <li class="pricing__item-item">
-                                    <svg
-                                        class="pricing__item-icon"
-                                        width="15"
-                                        height="10"
-                                        viewBox="0 0 15 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-
-                                    Custom Meals
-                                </li>
-                                <li class="pricing__item-item">
-                                    <svg
-                                        class="pricing__item-icon"
-                                        width="15"
-                                        height="10"
-                                        viewBox="0 0 15 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-
-                                    Spa and Grooming
-                                </li>
-                                <li class="pricing__item-item">
-                                    <svg
-                                        class="pricing__item-icon"
-                                        width="15"
-                                        height="10"
-                                        viewBox="0 0 15 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-
-                                    Excercise 2x
-                                </li>
-                                <li class="pricing__item-item">
-                                    <svg
-                                        class="pricing__item-icon"
-                                        width="15"
-                                        height="10"
-                                        viewBox="0 0 15 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-
-                                    Custom Meals
-                                </li>
-                                <li class="pricing__item-item">
-                                    <svg
-                                        class="pricing__item-icon"
-                                        width="15"
-                                        height="10"
-                                        viewBox="0 0 15 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-
-                                    Grooming 2x
-                                </li>
+                                <li class="pricing__item-item">Single room</li>
+                                <li class="pricing__item-item">Socialist Exercise</li>
+                                <li class="pricing__item-item">Custom Meals</li>
+                                <li class="pricing__item-item">Spa and Grooming</li>
+                                <li class="pricing__item-item">Excercise 2x</li>
+                                <li class="pricing__item-item">Custom Meals</li>
+                                <li class="pricing__item-item">Grooming 2x</li>
                             </ul>
                         </section>
                         <section class="pricing__item">
@@ -1114,148 +855,162 @@
                             <p class="pricing__item-price">$299</p>
                             <a href="#!" class="btn pricing__item-btn">Purchase Now</a>
                             <ul class="pricing__item-list">
-                                <li class="pricing__item-item">
-                                    <svg
-                                        class="pricing__item-icon"
-                                        width="15"
-                                        height="10"
-                                        viewBox="0 0 15 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-
-                                    Single room
-                                </li>
-                                <li class="pricing__item-item">
-                                    <svg
-                                        class="pricing__item-icon"
-                                        width="15"
-                                        height="10"
-                                        viewBox="0 0 15 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-
-                                    Socialist Exercise
-                                </li>
-                                <li class="pricing__item-item">
-                                    <svg
-                                        class="pricing__item-icon"
-                                        width="15"
-                                        height="10"
-                                        viewBox="0 0 15 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-
-                                    Custom Meals
-                                </li>
-                                <li class="pricing__item-item">
-                                    <svg
-                                        class="pricing__item-icon"
-                                        width="15"
-                                        height="10"
-                                        viewBox="0 0 15 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-
-                                    Spa and Grooming
-                                </li>
-                                <li class="pricing__item-item">
-                                    <svg
-                                        class="pricing__item-icon"
-                                        width="15"
-                                        height="10"
-                                        viewBox="0 0 15 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-
-                                    Excercise 2x
-                                </li>
-                                <li class="pricing__item-item">
-                                    <svg
-                                        class="pricing__item-icon"
-                                        width="15"
-                                        height="10"
-                                        viewBox="0 0 15 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-
-                                    Custom Meals
-                                </li>
-                                <li class="pricing__item-item">
-                                    <svg
-                                        class="pricing__item-icon"
-                                        width="15"
-                                        height="10"
-                                        viewBox="0 0 15 10"
-                                        fill="none"
-                                        xmlns="http://www.w3.org/2000/svg"
-                                    >
-                                        <path
-                                            d="M13.1875 1.0625L5.3125 8.93715L1.375 5"
-                                            stroke="currentColor"
-                                            stroke-width="2"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                        />
-                                    </svg>
-
-                                    Grooming 2x
-                                </li>
+                                <li class="pricing__item-item">Single room</li>
+                                <li class="pricing__item-item">Socialist Exercise</li>
+                                <li class="pricing__item-item">Custom Meals</li>
+                                <li class="pricing__item-item">Spa and Grooming</li>
+                                <li class="pricing__item-item">Excercise 2x</li>
+                                <li class="pricing__item-item">Custom Meals</li>
+                                <li class="pricing__item-item">Grooming 2x</li>
                             </ul>
                         </section>
+                    </div>
+                </div>
+            </section>
+            <!-- ===REVIEW -->
+            <section class="review">
+                <div class="container">
+                    <div class="review__inner">
+                        <div class="review__row">
+                            <label class="review__btn" type="button">
+                                <svg
+                                    class="review__btn-icon"
+                                    width="20"
+                                    height="21"
+                                    viewBox="0 0 20 21"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M16.875 10.9985H3.125"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                    <path
+                                        d="M8.75 5.37354L3.125 10.9985L8.75 16.6235"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </label>
+                            <label class="review__btn" type="button">
+                                <svg
+                                    class="review__btn-icon"
+                                    width="20"
+                                    height="21"
+                                    viewBox="0 0 20 21"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path
+                                        d="M16.875 10.9985H3.125"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                    <path
+                                        d="M8.75 5.37354L3.125 10.9985L8.75 16.6235"
+                                        stroke="currentColor"
+                                        stroke-width="1.5"
+                                        stroke-linecap="round"
+                                        stroke-linejoin="round"
+                                    />
+                                </svg>
+                            </label>
+                        </div>
+                        <div class="review__content-list">
+                            <div class="reivew__content-item">
+                                <figure class="review__media">
+                                    <img
+                                        src="./assets/img/review-img.png"
+                                        alt="Our Reviews"
+                                        class="review__img"
+                                    />
+                                </figure>
+                                <section class="review__infor">
+                                    <h2 class="section-heading">Our Reviews</h2>
+                                    <p class="section-desc review__desc">
+                                        “It was very comforting to recieve a text and pics each day
+                                        about our pets and how they were doing. It was also nice
+                                        that my pets were in the comfortable environment of their
+                                        own home and received playfull attention from our pet
+                                        sitters as well. Thanks so much!”
+                                    </p>
+                                    <p class="review__author">Karla Deras</p>
+                                </section>
+                            </div>
+                            <div class="reivew__content-item">
+                                <figure class="review__media">
+                                    <img
+                                        src="./assets/img/review-img.png"
+                                        alt="Our Reviews"
+                                        class="review__img"
+                                    />
+                                </figure>
+                                <section class="review__infor">
+                                    <h2 class="section-heading">Our Reviews</h2>
+                                    <p class="section-desc review__desc">
+                                        “It was very comforting to recieve a text and pics each day
+                                        about our pets and how they were doing. It was also nice
+                                        that my pets were in the comfortable environment of their
+                                        own home and received playfull attention from our pet
+                                        sitters as well. Thanks so much!”
+                                    </p>
+                                    <p class="review__author">Karla Deras</p>
+                                </section>
+                            </div>
+                            <div class="reivew__content-item">
+                                <figure class="review__media">
+                                    <img
+                                        src="./assets/img/review-img.png"
+                                        alt="Our Reviews"
+                                        class="review__img"
+                                    />
+                                </figure>
+                                <section class="review__infor">
+                                    <h2 class="section-heading">Our Reviews</h2>
+                                    <p class="section-desc review__desc">
+                                        “It was very comforting to recieve a text and pics each day
+                                        about our pets and how they were doing. It was also nice
+                                        that my pets were in the comfortable environment of their
+                                        own home and received playfull attention from our pet
+                                        sitters as well. Thanks so much!”
+                                    </p>
+                                    <p class="review__author">Karla Deras</p>
+                                </section>
+                            </div>
+                            <div class="reivew__content-item">
+                                <figure class="review__media">
+                                    <img
+                                        src="./assets/img/review-img.png"
+                                        alt="Our Reviews"
+                                        class="review__img"
+                                    />
+                                </figure>
+                                <section class="review__infor">
+                                    <h2 class="section-heading">Our Reviews</h2>
+                                    <p class="section-desc review__desc">
+                                        “It was very comforting to recieve a text and pics each day
+                                        about our pets and how they were doing. It was also nice
+                                        that my pets were in the comfortable environment of their
+                                        own home and received playfull attention from our pet
+                                        sitters as well. Thanks so much!”
+                                    </p>
+                                    <p class="review__author">Karla Deras</p>
+                                </section>
+                            </div>
+                        </div>
+                        <div class="review__dots">
+                            <span class="review__dot review__dot--active"></span>
+                            <span class="review__dot"></span>
+                            <span class="review__dot"></span>
+                            <span class="review__dot"></span>
+                        </div>
                     </div>
                 </div>
             </section>
